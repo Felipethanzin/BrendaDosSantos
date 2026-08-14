@@ -3,247 +3,1047 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Dom das Docuras — confeitaria artesanal da Brenda Santos. Doces gourmet, kits personalizados e encomendas para momentos especiais.">
+
+  <meta
+    name="description"
+    content="Dom das Doçuras — confeitaria artesanal. Doces gourmet, kits personalizados e encomendas para momentos especiais."
+  >
+
   <meta name="theme-color" content="#21140f">
-  <title>Dom das Docuras | Confeitaria Artesanal</title>
+
+  <title>Dom das Doçuras | Confeitaria Artesanal</title>
+
+  <!-- Font Awesome -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  >
+
+  <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+
+  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
+  <!-- =====================================================
+       AVISO SUPERIOR
+  ====================================================== -->
   <div class="announcement">
-    <span>DOM DAS DOCURAS</span>
-    <b>Confeitaria artesanal • encomendas personalizadas</b>
-    <a href="#contato">Fale conosco ↗</a>
+    <span>DOM DAS DOÇURAS</span>
+
+    <b>
+      Confeitaria artesanal • encomendas personalizadas
+    </b>
+
+    <a href="#contato">
+      Fale conosco ↗
+    </a>
   </div>
 
+
+  <!-- =====================================================
+       HEADER
+  ====================================================== -->
   <header class="header" id="header">
-    <a class="brand" href="#inicio" aria-label="Dom das Docuras">
-      <img src="assets/logo.png" alt="Logo Dom das Docuras">
+
+    <a
+      class="brand"
+      href="#inicio"
+      aria-label="Dom das Doçuras - início"
+    >
+      <img
+        src="assets/logo.png"
+        alt="Logo Dom das Doçuras"
+      >
+
       <span>
-        <strong>Dom das Docuras</strong>
+        <strong>Dom das Doçuras</strong>
         <small>CONFEITARIA ARTESANAL</small>
       </span>
     </a>
 
-    <button class="menu-toggle" aria-label="Abrir menu" aria-expanded="false">
-      <i></i><i></i><i></i>
+
+    <!-- Menu mobile -->
+    <button
+      class="menu-toggle"
+      type="button"
+      aria-label="Abrir menu"
+      aria-expanded="false"
+      aria-controls="main-navigation"
+    >
+      <i></i>
+      <i></i>
+      <i></i>
     </button>
 
-    <nav class="nav">
+
+    <!-- Navegação -->
+    <nav
+      class="nav"
+      id="main-navigation"
+      aria-label="Navegação principal"
+    >
       <a href="#inicio">Início</a>
       <a href="#especialidades">Cardápio</a>
       <a href="#sobre">A marca</a>
       <a href="#galeria">Galeria</a>
       <a href="#contato">Contato</a>
-      <a class="nav-button" href="#contato">Encomendar</a>
+
+      <a
+        class="nav-button"
+        href="#contato"
+      >
+        Encomendar
+      </a>
     </nav>
+
   </header>
 
+
+  <!-- =====================================================
+       CONTEÚDO PRINCIPAL
+  ====================================================== -->
   <main>
-    <section class="hero" id="inicio">
+
+    <!-- ===================================================
+         HERO
+    ==================================================== -->
+    <section
+      class="hero"
+      id="inicio"
+    >
+
       <div class="hero-copy reveal">
-        <div class="eyebrow"><span></span> O sabor de um momento especial</div>
-        <h1>Um toque de <em>doçura</em> para transformar o seu momento.</h1>
+
+        <div class="eyebrow">
+          <span></span>
+          O sabor de um momento especial
+        </div>
+
+        <h1>
+          Um toque de
+          <em>doçura</em>
+          para transformar o seu momento.
+        </h1>
+
         <p class="hero-description">
-          Doces artesanais preparados com cuidado, acabamento elegante e aquele sabor que faz a gente querer mais.
+          Doces artesanais preparados com cuidado,
+          acabamento elegante e aquele sabor que
+          faz a gente querer mais.
         </p>
 
+
         <div class="hero-actions">
-          <a class="button primary" href="#especialidades">Conhecer criações <span>↗</span></a>
-          <a class="button secondary" href="#contato">Fazer uma encomenda</a>
+
+          <a
+            class="button primary"
+            href="#especialidades"
+          >
+            Conhecer criações
+            <span>↗</span>
+          </a>
+
+          <a
+            class="button secondary"
+            href="#contato"
+          >
+            Fazer uma encomenda
+          </a>
+
         </div>
+
 
         <div class="hero-proof">
-          <div><strong>Artesanal</strong><small>feito à mão</small></div>
+
+          <div>
+            <strong>Artesanal</strong>
+            <small>feito à mão</small>
+          </div>
+
           <span></span>
-          <div><strong>Especial</strong><small>para cada ocasião</small></div>
+
+          <div>
+            <strong>Especial</strong>
+            <small>para cada ocasião</small>
+          </div>
+
           <span></span>
-          <div><strong>Personalizado</strong><small>do seu jeito</small></div>
+
+          <div>
+            <strong>Personalizado</strong>
+            <small>do seu jeito</small>
+          </div>
+
         </div>
+
       </div>
+
 
       <div class="hero-art reveal">
+
         <div class="hero-image">
-          <img src="assets/doces-01.png" alt="Seleção de doces da Dom das Docuras">
+          <img
+            src="assets/doces-01.png"
+            alt="Seleção de doces da Dom das Doçuras"
+            loading="eager"
+          >
         </div>
+
         <div class="hero-logo-card">
-          <img src="assets/logo-principal.png" alt="Dom das Docuras">
+          <img
+            src="assets/logo-principal.png"
+            alt="Dom das Doçuras"
+            loading="lazy"
+          >
         </div>
-        <div class="seal">FEITO<br><b>COM</b><br>CARINHO</div>
+
+        <div class="seal">
+          FEITO<br>
+          <b>COM</b><br>
+          CARINHO
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         TICKER
+    ==================================================== -->
+    <section
+      class="ticker"
+      aria-label="Eventos atendidos"
+    >
+      <div>
+        EVENTOS CORPORATIVOS
+        <span>✦</span>
+
+        BODAS
+        <span>✦</span>
+
+        CASAMENTOS
+        <span>✦</span>
+
+        15 ANOS
+        <span>✦</span>
+
+        FORMATURAS
+        <span>✦</span>
+
+        DEBUTANTES
+        <span>✦</span>
+
+        INFLUENCERS
+        <span>✦</span>
       </div>
     </section>
 
-    <section class="ticker">
-      <div>BRIGADEIROS <span>✦</span> DOCES FINOS <span>✦</span> CUPCAKES <span>✦</span> KITS PRESENTEÁVEIS <span>✦</span> ENCOMENDAS PERSONALIZADAS <span>✦</span> BRIGADEIROS <span>✦</span></div>
-    </section>
 
-    <section class="section intro" id="sobre">
-      <div class="section-label">01 — A marca</div>
+    <!-- ===================================================
+         SOBRE
+    ==================================================== -->
+    <section
+      class="section intro"
+      id="sobre"
+    >
+
+      <div class="section-label">
+        01 — A marca
+      </div>
+
       <div class="intro-grid">
+
         <div class="reveal">
-          <h2>Mais que doces.<br><em>Uma experiência.</em></h2>
+
+          <h2>
+            Mais que doces.<br>
+            <em>Uma experiência.</em>
+          </h2>
+
         </div>
+
+
         <div class="intro-text reveal">
-          <p class="lead">A Dom das Docuras nasceu para transformar carinho, celebração e cuidado em pequenas criações que ficam na memória.</p>
-          <p>Cada encomenda é pensada nos detalhes: sabor, textura, apresentação e acabamento. O resultado é uma confeitaria artesanal com personalidade e atenção em cada pedido.</p>
-          <div class="signature">Brenda Santos <small>— confeiteira</small></div>
+
+          <p class="lead">
+            A Dom das Doçuras nasceu para transformar
+            carinho, celebração e cuidado em pequenas
+            criações que ficam na memória.
+          </p>
+
+          <p>
+            Cada encomenda é pensada nos detalhes:
+            sabor, textura, apresentação e acabamento.
+            O resultado é uma confeitaria artesanal
+            com personalidade e atenção em cada pedido.
+          </p>
+
+          <div class="signature">
+            Brenda Santos
+            <small>— confeiteira</small>
+          </div>
+
         </div>
+
       </div>
+
     </section>
 
-    <section class="section menu-section" id="especialidades">
+
+    <!-- ===================================================
+         ESPECIALIDADES
+    ==================================================== -->
+    <section
+      class="section menu-section"
+      id="especialidades"
+    >
+
       <div class="section-heading reveal">
+
         <div>
-          <div class="section-label">02 — Especialidades</div>
-          <h2>Escolha sua <em>doçura.</em></h2>
+
+          <div class="section-label">
+            02 — Especialidades
+          </div>
+
+          <h2>
+            Escolha sua
+            <em>doçura.</em>
+          </h2>
+
         </div>
-        <p>Criações para presentear, comemorar ou simplesmente deixar o dia mais gostoso.</p>
+
+        <p>
+          Criações para presentear, comemorar ou
+          simplesmente deixar o dia mais gostoso.
+        </p>
+
       </div>
 
-      <div class="filters">
-        <button class="filter active" data-filter="todos">Todos</button>
-        <button class="filter" data-filter="gourmet">Gourmet</button>
-        <button class="filter" data-filter="festa">Festas</button>
-        <button class="filter" data-filter="presente">Presentes</button>
+
+      <!-- Filtros -->
+      <div
+        class="filters"
+        role="tablist"
+        aria-label="Categorias de produtos"
+      >
+
+        <button
+          class="filter active"
+          type="button"
+          data-filter="todos"
+        >
+          Todos
+        </button>
+
+        <button
+          class="filter"
+          type="button"
+          data-filter="gourmet"
+        >
+          Gourmet
+        </button>
+
+        <button
+          class="filter"
+          type="button"
+          data-filter="festa"
+        >
+          Festas
+        </button>
+
+        <button
+          class="filter"
+          type="button"
+          data-filter="presente"
+        >
+          Presentes
+        </button>
+
       </div>
 
+
+      <!-- Cards -->
       <div class="cards">
-        <article class="card reveal" data-category="gourmet">
-          <div class="card-image"><img src="assets/doces-01.png" alt="Doces gourmet"><span>Mais pedido</span></div>
+
+        <!-- Card 1 -->
+        <article
+          class="card reveal"
+          data-category="gourmet"
+        >
+
+          <div class="card-image">
+
+            <img
+              src="assets/ChatGPT Image 14 de ago. de 2026, 10_29_52.png"
+              alt="Docinhos gourmet artesanais"
+              loading="lazy"
+            >
+
+            <span>
+              Mais pedido
+            </span>
+
+          </div>
+
+
           <div class="card-content">
+
             <small>GOURMET</small>
-            <h3>Docinhos artesanais</h3>
-            <p>Brigadeiros e sabores especiais com acabamento delicado.</p>
-            <button class="order" data-product="Docinhos artesanais">Encomendar <b>↗</b></button>
+
+            <h3>
+              Docinhos artesanais
+            </h3>
+
+            <p>
+              Brigadeiros e sabores especiais
+              com acabamento delicado.
+            </p>
+
+            <button
+              class="order"
+              type="button"
+              data-product="Docinhos artesanais"
+            >
+              Encomendar
+              <b>↗</b>
+            </button>
+
           </div>
+
         </article>
 
-        <article class="card reveal" data-category="festa">
-          <div class="card-image"><img src="assets/doces-02.png" alt="Mesa de doces para festas"><span>Para celebrar</span></div>
+
+        <!-- Card 2 -->
+        <article
+          class="card reveal"
+          data-category="festa"
+        >
+
+          <div class="card-image">
+
+            <img
+              src="assets/doces-02.png"
+              alt="Mesa de doces para festas"
+              loading="lazy"
+            >
+
+            <span>
+              Para celebrar
+            </span>
+
+          </div>
+
+
           <div class="card-content">
+
             <small>FESTAS</small>
-            <h3>Mesa de doces</h3>
-            <p>Composições para aniversários, eventos e datas especiais.</p>
-            <button class="order" data-product="Mesa de doces">Encomendar <b>↗</b></button>
+
+            <h3>
+              Mesa de doces
+            </h3>
+
+            <p>
+              Composições para aniversários,
+              eventos e datas especiais.
+            </p>
+
+            <button
+              class="order"
+              type="button"
+              data-product="Mesa de doces"
+            >
+              Encomendar
+              <b>↗</b>
+            </button>
+
           </div>
+
         </article>
 
-        <article class="card reveal" data-category="presente">
-          <div class="card-image"><img src="assets/logo-principal.png" alt="Kit personalizado"><span>Personalizável</span></div>
+
+        <!-- Card 3 -->
+        <article
+          class="card reveal"
+          data-category="presente"
+        >
+
+          <div class="card-image">
+
+            <img
+              src="assets/logo-principal.png"
+              alt="Kit personalizado Dom das Doçuras"
+              loading="lazy"
+            >
+
+            <span>
+              Personalizável
+            </span>
+
+          </div>
+
+
           <div class="card-content">
+
             <small>PRESENTES</small>
-            <h3>Kits personalizados</h3>
-            <p>Uma seleção montada especialmente para surpreender.</p>
-            <button class="order" data-product="Kit personalizado">Encomendar <b>↗</b></button>
+
+            <h3>
+              Kits personalizados
+            </h3>
+
+            <p>
+              Uma seleção montada especialmente
+              para surpreender.
+            </p>
+
+            <button
+              class="order"
+              type="button"
+              data-product="Kit personalizado"
+            >
+              Encomendar
+              <b>↗</b>
+            </button>
+
           </div>
+
         </article>
+
       </div>
+
     </section>
 
+
+    <!-- ===================================================
+         FRASE
+    ==================================================== -->
     <section class="quote">
-      <span class="quote-mark">“</span>
-      <blockquote>O detalhe que você lembra depois da festa é o que faz tudo <em>valer a pena.</em></blockquote>
-      <small>DOM DAS DOCURAS</small>
+
+      <span class="quote-mark">
+        “
+      </span>
+
+      <blockquote>
+        O detalhe que você lembra depois da festa
+        é o que faz tudo
+        <em>valer a pena.</em>
+      </blockquote>
+
+      <small>
+        DOM DAS DOÇURAS
+      </small>
+
     </section>
 
-    <section class="section gallery" id="galeria">
+
+    <!-- ===================================================
+         GALERIA
+    ==================================================== -->
+    <section
+      class="section gallery"
+      id="galeria"
+    >
+
       <div class="section-heading reveal">
+
         <div>
-          <div class="section-label">03 — Galeria</div>
-          <h2>Feito para ser<br><em>admirado.</em></h2>
-        </div>
-        <p>Clique nas imagens para visualizar os detalhes.</p>
-      </div>
 
-      <div class="gallery-grid">
-        <button class="gallery-item big reveal" data-image="assets/doces-01.png" data-caption="Seleção de doces Dom das Docuras">
-          <img src="assets/doces-01.png" alt="Seleção de doces">
-          <span>Ampliar ↗</span>
-        </button>
-        <button class="gallery-item reveal" data-image="assets/doces-02.png" data-caption="Detalhes da apresentação">
-          <img src="assets/doces-02.png" alt="Detalhes da apresentação">
-          <span>Ampliar ↗</span>
-        </button>
-        <button class="gallery-item logo-gallery reveal" data-image="assets/logo-principal.png" data-caption="Identidade Dom das Docuras">
-          <img src="assets/logo-principal.png" alt="Logo Dom das Docuras">
-          <span>Ampliar ↗</span>
-        </button>
-      </div>
-    </section>
-
-    <section class="process">
-      <div class="section-label">04 — Como funciona</div>
-      <h2>Do primeiro contato<br>à sua <em>encomenda.</em></h2>
-      <div class="steps">
-        <div class="step reveal"><b>01</b><h3>Conte sua ideia</h3><p>Data, quantidade, ocasião e o que você imaginou.</p></div>
-        <div class="step reveal"><b>02</b><h3>Personalizamos</h3><p>Escolhemos sabores, composição e apresentação.</p></div>
-        <div class="step reveal"><b>03</b><h3>Preparamos</h3><p>A produção é feita artesanalmente e com cuidado.</p></div>
-        <div class="step reveal"><b>04</b><h3>Você recebe</h3><p>Uma encomenda pronta para tornar o momento especial.</p></div>
-      </div>
-    </section>
-
-    <section class="section faq">
-      <div class="section-heading reveal">
-        <div>
-          <div class="section-label">05 — Dúvidas</div>
-          <h2>Perguntas <em>frequentes.</em></h2>
-        </div>
-      </div>
-      <div class="faq-list">
-        <details class="reveal"><summary>Com quanto tempo devo encomendar? <span>+</span></summary><p>O ideal é entrar em contato com antecedência, especialmente para festas e datas comemorativas. O prazo depende da quantidade e da complexidade do pedido.</p></details>
-        <details class="reveal"><summary>Posso personalizar meu pedido? <span>+</span></summary><p>Sim. Podemos conversar sobre sabores, quantidades, apresentação e detalhes da encomenda.</p></details>
-        <details class="reveal"><summary>Como recebo o orçamento? <span>+</span></summary><p>Envie sua ideia pelo WhatsApp. A Brenda retorna com as opções e o orçamento conforme o pedido.</p></details>
-      </div>
-    </section>
-
-    <section class="contact" id="contato">
-      <div class="contact-grid">
-        <div class="contact-copy reveal">
-          <div class="section-label light">06 — Encomendas</div>
-          <h2>Vamos deixar seu momento mais <em>doce?</em></h2>
-          <p>Conte o que você está planejando e fale diretamente com a Dom das Docuras.</p>
-          <div class="contact-actions">
-            <a id="instagram" class="contact-link" href="#" target="_blank" rel="noopener">Instagram <span>↗</span></a>
-            <a id="whatsapp" class="contact-link" href="#" target="_blank" rel="noopener">WhatsApp <span>↗</span></a>
+          <div class="section-label">
+            03 — Galeria
           </div>
+
+          <h2>
+            Feito para ser<br>
+            <em>admirado.</em>
+          </h2>
+
         </div>
 
-        <form class="form reveal" id="orderForm">
-          <label>Seu nome<input id="name" type="text" placeholder="Seu nome" required></label>
-          <label>Pedido<select id="product">
-            <option>Docinhos artesanais</option>
-            <option>Mesa de doces</option>
-            <option>Kit personalizado</option>
-            <option>Outro</option>
-          </select></label>
-          <label>Mensagem<textarea id="message" rows="4" placeholder="Data, quantidade e detalhes..." required></textarea></label>
-          <button class="button form-button" type="submit">Enviar pelo WhatsApp <span>↗</span></button>
-          <small>Você será direcionado para o WhatsApp com a mensagem pronta.</small>
-        </form>
+        <p>
+          Clique nas imagens para visualizar
+          os detalhes.
+        </p>
+
       </div>
+
+
+      <!-- Galeria -->
+      <div class="gallery-grid">
+
+        <!-- Imagem 1 -->
+        <button
+          class="gallery-item big reveal"
+          type="button"
+          data-image="assets/logo-principal.png"
+          data-caption="Seleção de doces Dom das Doçuras"
+          aria-label="Ampliar seleção de doces"
+        >
+
+          <img
+            src="assets/logo-principal.png"
+            alt="Seleção de doces Dom das Doçuras"
+            loading="lazy"
+          >
+
+          <span>
+            Ampliar ↗
+          </span>
+
+        </button>
+
+
+        <!-- Imagem 2 -->
+        <button
+          class="gallery-item reveal"
+          type="button"
+          data-image="assets/cd3e6e79-a8e3-4b2a-a0cd-9404c8d4e9c2.png"
+          data-caption="Detalhes da apresentação dos doces"
+          aria-label="Ampliar detalhes da apresentação"
+        >
+
+          <img
+            src="assets/cd3e6e79-a8e3-4b2a-a0cd-9404c8d4e9c2.png"
+            alt="Detalhes da apresentação dos doces"
+            loading="lazy"
+          >
+
+          <span>
+            Ampliar ↗
+          </span>
+
+        </button>
+
+
+        <!-- Imagem 3 -->
+        <button
+          class="gallery-item logo-gallery reveal"
+          type="button"
+          data-image="assets/image.png"
+          data-caption="Identidade visual Dom das Doçuras"
+          aria-label="Ampliar logo Dom das Doçuras"
+        >
+
+          <img
+            src="assets/image.png"
+            alt="Logo Dom das Doçuras"
+            loading="lazy"
+          >
+
+          <span>
+            Ampliar ↗
+          </span>
+
+        </button>
+
+      </div>
+
     </section>
+    <!-- FIM DA GALERIA -->
+
+
+    <!-- ===================================================
+         PROCESSO
+    ==================================================== -->
+    <section class="process">
+
+      <div class="section-label">
+        04 — Como funciona
+      </div>
+
+      <h2>
+        Do primeiro contato<br>
+        à sua
+        <em>encomenda.</em>
+      </h2>
+
+
+      <div class="steps">
+
+        <div class="step reveal">
+          <b>01</b>
+          <h3>Conte sua ideia</h3>
+          <p>
+            Data, quantidade, ocasião e
+            o que você imaginou.
+          </p>
+        </div>
+
+
+        <div class="step reveal">
+          <b>02</b>
+          <h3>Personalizamos</h3>
+          <p>
+            Escolhemos sabores, composição
+            e apresentação.
+          </p>
+        </div>
+
+
+        <div class="step reveal">
+          <b>03</b>
+          <h3>Preparamos</h3>
+          <p>
+            A produção é feita artesanalmente
+            e com cuidado.
+          </p>
+        </div>
+
+
+        <div class="step reveal">
+          <b>04</b>
+          <h3>Você recebe</h3>
+          <p>
+            Uma encomenda pronta para tornar
+            o momento especial.
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         FAQ
+    ==================================================== -->
+    <section class="section faq">
+
+      <div class="section-heading reveal">
+
+        <div>
+
+          <div class="section-label">
+            05 — Dúvidas
+          </div>
+
+          <h2>
+            Perguntas
+            <em>frequentes.</em>
+          </h2>
+
+        </div>
+
+      </div>
+
+
+      <div class="faq-list">
+
+        <details class="reveal">
+
+          <summary>
+            Com quanto tempo devo encomendar?
+            <span>+</span>
+          </summary>
+
+          <p>
+            O ideal é entrar em contato com antecedência,
+            especialmente para festas e datas comemorativas.
+            O prazo depende da quantidade e da complexidade
+            do pedido.
+          </p>
+
+        </details>
+
+
+        <details class="reveal">
+
+          <summary>
+            Posso personalizar meu pedido?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Sim. Podemos conversar sobre sabores,
+            quantidades, apresentação e detalhes
+            da encomenda.
+          </p>
+
+        </details>
+
+
+        <details class="reveal">
+
+          <summary>
+            Como recebo o orçamento?
+            <span>+</span>
+          </summary>
+
+          <p>
+            Envie sua ideia pelo WhatsApp.
+            A Brenda retorna com as opções
+            e o orçamento conforme o pedido.
+          </p>
+
+        </details>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===================================================
+         CONTATO
+    ==================================================== -->
+    <section
+      class="contact"
+      id="contato"
+    >
+
+      <div class="contact-grid">
+
+        <div class="contact-copy reveal">
+
+          <div class="section-label light">
+            06 — Encomendas
+          </div>
+
+          <h2>
+            Sua próxima celebração
+            começa aqui.
+          </h2>
+
+          <p>
+            Conte o que você está planejando
+            e fale diretamente com a
+            Dom das Doçuras.
+          </p>
+
+
+          <div class="contact-actions">
+
+            <!-- Instagram -->
+            <a
+              id="instagram"
+              class="contact-link"
+              href="https://www.instagram.com/domdasdocucas/"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Instagram Dom das Doçuras"
+            >
+              <i class="fa-brands fa-instagram"></i>
+              Instagram
+              <span>↗</span>
+            </a>
+
+
+            <!-- WhatsApp -->
+            <a
+              id="whatsapp"
+              class="contact-link"
+              href="https://wa.me/5521984293516"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="WhatsApp Dom das Doçuras"
+            >
+              <i class="fa-brands fa-whatsapp"></i>
+              WhatsApp
+              <span>↗</span>
+            </a>
+
+          </div>
+
+        </div>
+
+
+        <!-- Formulário -->
+        <form
+          class="form reveal"
+          id="orderForm"
+        >
+
+          <label>
+            Seu nome
+
+            <input
+              id="name"
+              name="name"
+              type="text"
+              placeholder="Seu nome"
+              autocomplete="name"
+              required
+            >
+          </label>
+
+
+          <label>
+            Pedido
+
+            <select
+              id="product"
+              name="product"
+            >
+              <option value="Docinhos artesanais">
+                Docinhos artesanais
+              </option>
+
+              <option value="Mesa de doces">
+                Mesa de doces
+              </option>
+
+              <option value="Kit personalizado">
+                Kit personalizado
+              </option>
+
+              <option value="Outro">
+                Outro
+              </option>
+            </select>
+
+          </label>
+
+
+          <label>
+            Mensagem
+
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Data, quantidade e detalhes..."
+              required
+            ></textarea>
+
+          </label>
+
+
+          <button
+            class="button form-button"
+            type="submit"
+          >
+            <i class="fa-brands fa-whatsapp"></i>
+            Enviar pelo WhatsApp
+            <span>↗</span>
+          </button>
+
+
+          <small>
+            Você será direcionado para o WhatsApp
+            com a mensagem pronta.
+          </small>
+
+        </form>
+
+      </div>
+
+    </section>
+
   </main>
 
+
+  <!-- =====================================================
+       FOOTER
+  ====================================================== -->
   <footer class="footer">
+
     <div class="footer-brand">
-      <img src="assets/logo.png" alt="Dom das Docuras">
-      <div><strong>Dom das Docuras</strong><small>CONFEITARIA ARTESANAL</small></div>
+
+      <img
+        src="assets/logo.png"
+        alt="Dom das Doçuras"
+      >
+
+      <div>
+        <strong>
+          Dom das Doçuras
+        </strong>
+
+        <small>
+          CONFEITARIA ARTESANAL
+        </small>
+      </div>
+
     </div>
-    <p>Feito com carinho, detalhe por detalhe.</p>
-    <span>© <span id="year"></span> Dom das Docuras</span>
+
+
+    <p>
+      Feito com carinho, detalhe por detalhe.
+    </p>
+
+
+    <span>
+      ©
+      <span id="year"></span>
+      Dom das Doçuras
+    </span>
+
   </footer>
 
-  <div class="modal" id="modal" aria-hidden="true">
-    <button class="modal-close" aria-label="Fechar">×</button>
-    <div><img id="modalImg" src="" alt=""><p id="modalCaption"></p></div>
+
+  <!-- =====================================================
+       MODAL DA GALERIA
+  ====================================================== -->
+  <div
+    class="modal"
+    id="modal"
+    aria-hidden="true"
+    role="dialog"
+    aria-modal="true"
+    aria-label="Visualização ampliada"
+  >
+
+    <button
+      class="modal-close"
+      type="button"
+      aria-label="Fechar imagem"
+    >
+      ×
+    </button>
+
+
+    <div class="modal-content">
+
+      <img
+        id="modalImg"
+        src=""
+        alt=""
+      >
+
+      <p id="modalCaption"></p>
+
+    </div>
+
   </div>
 
-  <div class="toast" id="toast"></div>
-  <a class="floating-whatsapp" id="floatingWhatsapp" href="#" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
 
+  <!-- Toast -->
+  <div
+    class="toast"
+    id="toast"
+    role="status"
+    aria-live="polite"
+  ></div>
+
+
+  <!-- =====================================================
+       WHATSAPP FLUTUANTE
+  ====================================================== -->
+  <a
+    class="floating-whatsapp"
+    id="floatingWhatsapp"
+    href="https://wa.me/5521984293516"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Falar com a Dom das Doçuras pelo WhatsApp"
+    title="Fale conosco pelo WhatsApp"
+  >
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+  ====================================================== -->
   <script src="script.js"></script>
+
 </body>
 </html>
